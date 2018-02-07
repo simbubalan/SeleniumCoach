@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="FFTest">
+  <parameter name="nodeURL" value="http://192.168.1.230:5555/wd/hub"></parameter>
+  <parameter name="browser" value="FF"></parameter>
+    <classes>
+      <class name="grid.GridDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="ChromeTest">
+  <parameter name="nodeURL" value="http://192.168.1.230:5566/wd/hub"></parameter>
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="grid.GridDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="IETest">
+  <parameter name="nodeURL" value="http://192.168.1.230:5588/wd/hub"></parameter>
+  <parameter name="browser" value="IE"></parameter>
+    <classes>
+      <class name="grid.GridDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

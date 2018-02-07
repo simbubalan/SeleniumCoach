@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94399" started-at="2017-02-10T05:33:17Z" finished-at="2017-02-10T05:34:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94399" started-at="2017-02-10T05:33:17Z" finished-at="2017-02-10T05:34:52Z">
+      <class name="YahooSearch">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:YahooSearch@1593948d]" name="openBrowser" is-config="true" duration-ms="69674" started-at="2017-02-10T11:03:17Z" finished-at="2017-02-10T11:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="doSearch1()[pri:1, instance:YahooSearch@1593948d]" name="doSearch1" duration-ms="5529" started-at="2017-02-10T11:04:27Z" finished-at="2017-02-10T11:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch1 -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:YahooSearch@1593948d]" name="backToHomePage" is-config="true" duration-ms="2718" started-at="2017-02-10T11:04:32Z" finished-at="2017-02-10T11:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="doSearch2()[pri:2, instance:YahooSearch@1593948d]" name="doSearch2" duration-ms="4925" started-at="2017-02-10T11:04:35Z" finished-at="2017-02-10T11:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch2 -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:YahooSearch@1593948d]" name="backToHomePage" is-config="true" duration-ms="3975" started-at="2017-02-10T11:04:40Z" finished-at="2017-02-10T11:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="doSearch3()[pri:3, instance:YahooSearch@1593948d]" name="doSearch3" duration-ms="4637" started-at="2017-02-10T11:04:44Z" finished-at="2017-02-10T11:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch3 -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:YahooSearch@1593948d]" name="backToHomePage" is-config="true" duration-ms="2389" started-at="2017-02-10T11:04:49Z" finished-at="2017-02-10T11:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:YahooSearch@1593948d]" name="closeBrowser" is-config="true" duration-ms="507" started-at="2017-02-10T11:04:51Z" finished-at="2017-02-10T11:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- YahooSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

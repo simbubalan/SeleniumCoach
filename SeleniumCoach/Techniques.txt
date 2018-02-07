@@ -1,0 +1,345 @@
+CSS Selectors:
+--------------
+Developers apply cascading style sheets for beautification of 
+web elements on the front-end screens.
+
+To handle the elements with css applied, By,CssSeelctor() is effiecient
+over other locating mechanisms.
+
+Writing CSS values:
+-------------------
+1. # operator: #represents id attribute
+---------------
+By.cssSelector("#idAttrValue")
+
+2. dot(.) operator: It represents class attribute
+-------------------
+FlipKart username: By.cssSelector("._2zrpKA") or By.className("_2zrpKA")
+FlipKart password: By.cssSelector("._2zrpKA._3v41xv")
+Note: By.className() can't hanlde compound classes (more than one class).
+FlipKart Login button: By.cssSelector("._2AkmmA._1LctnI._7UHT_c")
+
+3. Deriving from XPath expression:
+----------------------------------
+XPath Syntax: //tagName[@attribute='value']
+CSS Selector: tagName[attribute='value']
+--------------------------------------------------
+4. Multiple attributes in css selector value:
+CSS Selector: tagName[attribute1='value1'][attribute2='value2']
+----------------------------------------------------------------
+5. ^ is the operator using which we can locate/select element
+bases of prefix (similar to xpath starts-with())
+
+tagName[attribute^='value']
+Ex: a[href^='https']
+
+6. $ operator: Selecte elements based on given suffix (similar to
+ends-with() of xpath).
+tagName[attribute$='value']
+Ex: a[href$='.html']
+
+7. * operator: Selects based on given sub string (similar to xpath contains()).
+
+tagName[attribute*='value']
+Ex: a[href*='w3schools']
+
+Note:
+XPath is slower in execution on IE compared to CSSSelector.
+
+XPath techniques:
+-----------------
+Absolute
+Relative
+ //tagName[@attribute='value']
+
+XPath operators:
+----------------
+and: //tagName[@attribute1='value' and @attribute2='value']
+
+Locates element if all the attributes are matched.
+//*[@id='Email' and @type='email' and @name='Email']
+//a[@class='_1QZ6fC' and @title='Electronics'] (This is on flipkart site)
+
+
+or: 
+
+//tagName[@attribute1='value' or @attribute2='value']
+
+Locates elements if atleast one attribute matches.
+//*[@id='Email' or @name='Email']
+
+double dot (..): Selects the parent of the current node
+----------------
+On gmail page,
+xpath of h2 is: //h2[@class='hidden-small']
+xpath of h1 is: //h2[@class='hidden-small']/../h1
+
+attribute:Selects all attributes of the current node
+----------
+//*[@id='Email']/attribute::*
+//*[@id='Email']/attribute::id
+//*[@id='Email']/attribute::name
+
+child: Selects all children of the current node
+------
+//div[@class='banner']/child::*
+//div[@class='banner']/child::h1
+//div[@class='banner']/child::h2
+
+following: Selects everything in the page after the closing tag of the 
+----------
+current node.
+
+//*[@id='canvas']/following::*
+//*[@id='canvas']/following::input
+//*[@id='canvas']/following::a
+
+following-sibling: Selects all siblings after the current node 
+
+current node: //*[@id='next']
+//*[@id='next']/following-sibling::*
+
+preceding: Selects all nodes that appear before the current node in the page
+----------
+current node: //*[@id='gaia_firstform']/div/a
+//*[@id='gaia_firstform']/div/a/preceding::*
+
+preceding-sibling: Selects all siblings before the current node
+------------------
+//*[@id='gaia_firstform']/div/a/preceding-sibling::*
+
+
+XPath functions:
+----------------
+text(): //*[text()='Settings']
+
+last(): locates last element in the group of elements
+last()-1: locates last but one element in the group of elements
+
+Ex: //*[@id='_eEe']/a[last()]
+    //*[@id='_eEe']/a[last()-1]
+
+position(): selects element based on its position in group of elements
+//*[@id='_eEe']/a[position()=1]
+//*[@id='_eEe']/a[position()=2]
+//*[@id='_eEe']/a[position()=last()]
+
+Handling dynamic attributes
+---------------------------
+xpath during script preparation: //*[@id='yui_3_12_0_3_1487912007686_1357']/a
+xpath during script execution://*[@id='yui_3_12_0_3_1487913536606_972']/a
+
+The id attribute is changing.
+
+starts-with selects element based on fixed prefix:
+//*[starts-with(@id, 'yui_3')]/a
+
+ends-with selects element based on fixed suffix:
+//*[ends-with(@href, 'html')]/a
+
+contains selects element based on fixed sub string:
+//*[contains(@id, 'yui_3')]/a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Dynamic atributes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+Selenium Grid:
+--------------
+Using this Selenium component, we can distribute test cases from main machine to remote
+machines to save execution time and also to perform platform compatibility testing.
+
+This needs Hub-Node architecture to be created:
+
+Hub: is a central single machine where we build test cases
+Node: is remote machine avaialble in LAN where we execute test cases. 
+We can register multiple nodes to a hub.
+
+Hub-Node can be setup using Se Grid.
+
+Configuration of Hub:
+---------------------
+Go to Seleniumhq.org web site
+Download Selenium Standalone Server jar file
+Save in local folder
+Open command prompt run below command to set up Hub:
+
+java -jar E:\Projects\selenium-server-standalone-3.1.0.jar -role hub
+---------------------------------------------------------------------
+
+Observe that it says "Hub is up and running". Default it runs on port number 4444.
+To verify it using browser, hit URL: http://localhost:4444/grid/console
+				----
+
+Configuration of Node:
+---------------------
+Download and save Selenium Standalone Server jar file in remote machine where scripts 
+need be executed.
+
+Open command prompt in remote machine run below command to set up Firefox Node:
+
+java -jar -Dwebdriver.gecko.driver=E:/Projects/geckodriver.exe  
+E:\Projects\selenium-server-standalone-3.1.0.jar -role node 
+-hub http://192.168.1.230:4444/grid/register/
+
+Observe that node is registered and ready for use on port number 5555 by default.
+
+We can register other nodes on different port numbers using below command:
+
+Chrome Node:
+
+java -jar -Dwebdriver.chrome.driver=E:/Projects/chromedriver.exe  
+E:\Projects\selenium-server-standalone-3.1.0.jar -role node 
+-hub http://192.168.1.230:4444/grid/register/ -port 5566
+
+IE Node:
+
+java -jar -Dwebdriver.ie.driver=E:/Projects/IEDriverSever.exe  
+E:\Projects\selenium-server-standalone-3.1.0.jar -role node 
+-hub http://192.168.1.230:4444/grid/register/ -port 5577
+						    ----
+
+Execute test cases:
+-------------------
+1. RemoteWebDriver: This is also a class implements WebDriver interface. It's consructor 
+required two parameters:
+parameter1: Node address (URL class)
+parameter2: platform selection on node machine
+2. DesiredCapabilities: This is to select browser or OS on remote machine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

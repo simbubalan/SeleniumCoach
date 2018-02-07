@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8571" started-at="2017-02-09T05:29:26Z" finished-at="2017-02-09T05:29:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8571" started-at="2017-02-09T05:29:26Z" finished-at="2017-02-09T05:29:35Z">
+      <class name="Google">
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:Google@4f933fd1]" name="openBrowser" duration-ms="5884" started-at="2017-02-09T10:59:26Z" finished-at="2017-02-09T10:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="goToTestSite()[pri:2, instance:Google@4f933fd1]" name="goToTestSite" duration-ms="2177" started-at="2017-02-09T10:59:32Z" finished-at="2017-02-09T10:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTestSite -->
+        <test-method status="PASS" signature="doSearch()[pri:3, instance:Google@4f933fd1]" name="doSearch" duration-ms="427" started-at="2017-02-09T10:59:34Z" finished-at="2017-02-09T10:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="closeBrowser()[pri:4, instance:Google@4f933fd1]" name="closeBrowser" duration-ms="23" started-at="2017-02-09T10:59:35Z" finished-at="2017-02-09T10:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Google -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

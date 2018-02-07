@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120824" started-at="2017-02-15T05:09:26Z" finished-at="2017-02-15T05:11:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="120824" started-at="2017-02-15T05:09:26Z" finished-at="2017-02-15T05:11:27Z">
+      <class name="search.Google">
+        <test-method status="PASS" signature="GoToSite()[pri:0, instance:search.Google@6767c1fc]" name="GoToSite" is-config="true" duration-ms="120" started-at="2017-02-15T10:41:02Z" finished-at="2017-02-15T10:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToSite -->
+        <test-method status="PASS" signature="doSearch(java.lang.String)[pri:0, instance:search.Google@6767c1fc]" name="doSearch" duration-ms="13389" started-at="2017-02-15T10:41:03Z" data-provider="searchData" finished-at="2017-02-15T10:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:search.Google@6767c1fc]" name="backToHomePage" is-config="true" duration-ms="2126" started-at="2017-02-15T10:41:16Z" finished-at="2017-02-15T10:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="doSearch(java.lang.String)[pri:0, instance:search.Google@6767c1fc]" name="doSearch" duration-ms="2300" started-at="2017-02-15T10:41:18Z" data-provider="searchData" finished-at="2017-02-15T10:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UFT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:search.Google@6767c1fc]" name="backToHomePage" is-config="true" duration-ms="2127" started-at="2017-02-15T10:41:21Z" finished-at="2017-02-15T10:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="doSearch(java.lang.String)[pri:0, instance:search.Google@6767c1fc]" name="doSearch" duration-ms="2298" started-at="2017-02-15T10:41:23Z" data-provider="searchData" finished-at="2017-02-15T10:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:search.Google@6767c1fc]" name="backToHomePage" is-config="true" duration-ms="2112" started-at="2017-02-15T10:41:25Z" finished-at="2017-02-15T10:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+      </class> <!-- search.Google -->
+      <class name="search.Yahoo">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:search.Yahoo@4678c730]" name="openBrowser" is-config="true" duration-ms="68602" started-at="2017-02-15T10:39:26Z" finished-at="2017-02-15T10:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="goToSite()[pri:0, instance:search.Yahoo@4678c730]" name="goToSite" is-config="true" duration-ms="6455" started-at="2017-02-15T10:40:35Z" finished-at="2017-02-15T10:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToSite -->
+        <test-method status="PASS" signature="doSearch(java.lang.String)[pri:0, instance:search.Yahoo@4678c730]" name="doSearch" duration-ms="4059" started-at="2017-02-15T10:40:41Z" data-provider="searchData" finished-at="2017-02-15T10:40:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:search.Yahoo@4678c730]" name="backToHomePage" is-config="true" duration-ms="2019" started-at="2017-02-15T10:40:45Z" finished-at="2017-02-15T10:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="doSearch(java.lang.String)[pri:0, instance:search.Yahoo@4678c730]" name="doSearch" duration-ms="4978" started-at="2017-02-15T10:40:47Z" data-provider="searchData" finished-at="2017-02-15T10:40:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UFT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:search.Yahoo@4678c730]" name="backToHomePage" is-config="true" duration-ms="2043" started-at="2017-02-15T10:40:52Z" finished-at="2017-02-15T10:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="doSearch(java.lang.String)[pri:0, instance:search.Yahoo@4678c730]" name="doSearch" duration-ms="5964" started-at="2017-02-15T10:40:54Z" data-provider="searchData" finished-at="2017-02-15T10:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:search.Yahoo@4678c730]" name="backToHomePage" is-config="true" duration-ms="2020" started-at="2017-02-15T10:41:00Z" finished-at="2017-02-15T10:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:search.Yahoo@4678c730]" name="closeBrowser" is-config="true" duration-ms="17" started-at="2017-02-15T10:41:27Z" finished-at="2017-02-15T10:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- search.Yahoo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+Working with files in Java:
+--------------------------
+Java has pre-defined I/O classes to support the input and output 
+through bytes stream/charater stream and file system in java.io package.
+Below is the list of classes:
+File
+FileReader
+FileInputStream
+BufferredReader
+FileWriter 
+FileOutStream
+BufferredWriter etc..,
+-----------------------------------------------------------------------------
+Working with text files:
+------------------------
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62" started-at="2017-02-15T04:53:58Z" finished-at="2017-02-15T04:53:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62" started-at="2017-02-15T04:53:58Z" finished-at="2017-02-15T04:53:58Z">
+      <class name="search.ClassB">
+        <test-method status="PASS" signature="test1B()[pri:1, instance:search.ClassB@51565ec2]" name="test1B" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1B -->
+        <test-method status="PASS" signature="beforeClassB()[pri:0, instance:search.ClassB@51565ec2]" name="beforeClassB" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassB -->
+        <test-method status="PASS" signature="beforeMethodB()[pri:0, instance:search.ClassB@51565ec2]" name="beforeMethodB" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodB -->
+        <test-method status="PASS" signature="afterMethodB()[pri:0, instance:search.ClassB@51565ec2]" name="afterMethodB" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodB -->
+        <test-method status="PASS" signature="afterClassB()[pri:0, instance:search.ClassB@51565ec2]" name="afterClassB" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassB -->
+        <test-method status="PASS" signature="test2B()[pri:2, instance:search.ClassB@51565ec2]" name="test2B" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2B -->
+        <test-method status="PASS" signature="afterMethodB()[pri:0, instance:search.ClassB@51565ec2]" name="afterMethodB" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodB -->
+        <test-method status="PASS" signature="beforeMethodB()[pri:0, instance:search.ClassB@51565ec2]" name="beforeMethodB" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodB -->
+      </class> <!-- search.ClassB -->
+      <class name="search.ClassA">
+        <test-method status="PASS" signature="beforeClassA()[pri:0, instance:search.ClassA@675d3402]" name="beforeClassA" is-config="true" duration-ms="16" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassA -->
+        <test-method status="PASS" signature="test1A()[pri:1, instance:search.ClassA@675d3402]" name="test1A" duration-ms="15" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1A -->
+        <test-method status="PASS" signature="beforeMethodA()[pri:0, instance:search.ClassA@675d3402]" name="beforeMethodA" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodA -->
+        <test-method status="PASS" signature="test2A()[pri:2, instance:search.ClassA@675d3402]" name="test2A" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2A -->
+        <test-method status="PASS" signature="afterMethodA()[pri:0, instance:search.ClassA@675d3402]" name="afterMethodA" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodA -->
+        <test-method status="PASS" signature="beforeMethodA()[pri:0, instance:search.ClassA@675d3402]" name="beforeMethodA" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodA -->
+        <test-method status="PASS" signature="afterMethodA()[pri:0, instance:search.ClassA@675d3402]" name="afterMethodA" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodA -->
+        <test-method status="PASS" signature="afterClassA()[pri:0, instance:search.ClassA@675d3402]" name="afterClassA" is-config="true" duration-ms="0" started-at="2017-02-15T10:23:58Z" finished-at="2017-02-15T10:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassA -->
+      </class> <!-- search.ClassA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

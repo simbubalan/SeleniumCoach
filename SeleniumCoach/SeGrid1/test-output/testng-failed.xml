@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="IETest(failed)">
+    <parameter name="browser" value="IE"/>
+    <parameter name="nodeURL" value="http://192.168.1.230:5588/wd/hub"/>
+    <classes>
+      <class name="grid.GridDemo">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="doSearch"/>
+        </methods>
+      </class> <!-- grid.GridDemo -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
