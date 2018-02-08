@@ -1,0 +1,18 @@
+2016-03-28 21:39:49,454 INFO  [Reporter] Imported Test Data 
+2016-03-28 21:39:50,078 INFO  [Reporter] BrowserSetup Column Vaue is FireFox 
+2016-03-28 21:40:00,939 INFO  [Reporter] Guru99Bank Application launched successfully 
+2016-03-28 21:40:00,943 INFO  [Reporter] UserName Column Vaue is mngr32838 
+2016-03-28 21:40:00,944 INFO  [Reporter] Password Column Vaue is Ctl@1234 
+2016-03-28 21:40:05,960 INFO  [Reporter] Login successfully 
+2016-03-28 21:40:06,285 INFO  [Reporter] NewCustName Column Vaue is A 
+2016-03-28 21:40:06,359 INFO  [Reporter] CustDOB Column Vaue is 12/06/1878 
+2016-03-28 21:40:06,469 INFO  [Reporter] CustAddress Column Vaue is Central park 
+2016-03-28 21:40:06,572 INFO  [Reporter] CustCity Column Vaue is Mont 
+2016-03-28 21:40:06,614 INFO  [Reporter] CustState Column Vaue is Alabama 
+2016-03-28 21:40:06,661 INFO  [Reporter] CustPincode Column Vaue is 123456.0 
+2016-03-28 21:40:06,714 INFO  [Reporter] CustEmail Column Vaue is as10@as.com 
+2016-03-28 21:40:06,771 INFO  [Reporter] CustPhone Column Vaue is 7896541234 
+2016-03-28 21:40:06,820 INFO  [Reporter] CustPassword Column Vaue is 12345.0 
+2016-03-28 21:40:10,424 INFO  [Reporter] Customer Register Sucessfully 
+2016-03-28 21:40:10,749 INFO  [Reporter] IntialDeposit Column Vaue is 5000.0 
+2016-03-28 21:40:14,365 INFO  [Reporter] Account Number 12096 Generated  Sucessfully 
